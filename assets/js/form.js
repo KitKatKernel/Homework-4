@@ -20,12 +20,15 @@ document.getElementById('revelationForm').addEventListener('submit', function(ev
     }
 
     const post = buildPost();
-    const postString = JSON.stringify(post);
-    localStorage.setItem('blogPost', postString);
+    
+    let blogPosts = localStorage.getItem('blogPosts');
+    if (blogPosts) {
+        blogPosts = JSON.parse(blogPosts);
+    } else {
+        blogPosts = [];
+    }
 
-    const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
-    posts.push(post);
-    localStorage.setItem('blogPosts', JSON.stringify(posts));
+    blogPosts.push(post);
+    localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
     window.location.href = 'blog.html';
 });
-
