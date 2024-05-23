@@ -11,10 +11,20 @@ function buildPost() {
     return blogPost;
 }
 
-
 document.getElementById('revelationForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    const post = buildPost();
-    console.log(post);
-});
+    
+    if (!document.getElementById('user').value || !document.getElementById('title').value || !document.getElementById('content').value) {
+        alert('Please fill out all fields.');
+        return;
+    }
 
+    const post = buildPost();
+    const postString = JSON.stringify(post);
+    localStorage.setItem('blogPost', postString);
+
+    const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+    posts.push(post);
+    localStorage.setItem('blogPosts', JSON.stringify(posts));
+    window.location.href = 'blog.html';
+});
