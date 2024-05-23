@@ -28,3 +28,4 @@ document.getElementById('revelationForm').addEventListener('submit', function(ev
     localStorage.setItem('blogPosts', JSON.stringify(posts));
     window.location.href = 'blog.html';
 });
+

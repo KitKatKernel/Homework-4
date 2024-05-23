@@ -5,25 +5,26 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="./assets/css/blog.css"/>
-
+        <link rel="stylesheet" type="text/css" href="./assets/css/form.css"/>
     </head>
     <body>
         <header>
             <h1>What Legendary Moment Did You Experience?</h1>
+            <button id="themeToggle">☀️</button>
         </header>
         <form id="revelationForm">
             <label for="Username">Username</label><br>
             <input type="text" id="user" name="user" required><br>
             
             <label for="Title">Title</label><br>
-            <input type ="text" id="title" name="title" required><br>
+            <input type="text" id="title" name="title" required><br>
 
             <label for="Content">Content</label><br>
-            <input type ="text" id="content" name="content" required><br>
+            <textarea id="content" name="content" required></textarea><br>
 
             <button type="submit">Submit</button>
         </form>
         <script src="assets/js/form.js"></script>
+        <script src="assets/js/logic.js"></script>
     </body>
 </html>

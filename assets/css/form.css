@@ -1,0 +1,45 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--offwhite);
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+}
+
+form button {
+    color: var(--offwhite);
+    background-color: var(--gray);
+}
+
+body.dark-mode form {
+    background-color: var(--lightblack);
+    border-color: var(--red);
+    color: var(--offwhite);
+}
+
+body.dark-mode form input[type="text"],
+body.dark-mode form textarea {
+    background-color: var(--gray);
+    border-color: var(--red);
+    color: var(--offwhite);
+}
+
+body.dark-mode form button {
+    background-color: var(--sunset);
+}
