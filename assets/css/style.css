@@ -23,7 +23,29 @@ header {
     margin: 20px 0;
 }
 
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 button#themeToggle {
     background-color: var(--gray);
     color: var(--offwhite);
+}
+
+button#themeToggle:hover {
+    background-color: var(--orange);
+}
+
+body.dark-mode button#themeToggle {
+    background-color: var(--sunset);
+    text-shadow: 0 0 5px var(--orange);
+    box-shadow: 0 0 5px var(--orange);
+}
+
+body.dark-mode button#themeToggle:hover {
+    background-color: var(--orange);
 }
