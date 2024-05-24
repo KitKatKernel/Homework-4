@@ -8,9 +8,10 @@
     --lightgray: #dedede;
 }
 
+/* Center form horizontally with a max width */
 #blogContent {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; 
+    margin: 0 auto; 
     padding: 20px;
     background-color: var(--offwhite);
     border: 1px solid var(--lightgray);
@@ -23,7 +24,7 @@
     background-color: var(--offwhite);
     border: 1px solid var(--lightgray);
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
 }
 
 .post h2 {
@@ -48,6 +49,7 @@
     text-shadow: 1px 1px var(--offwhite);
 }
 
+/* Dark mode styles */
 body.dark-mode #blogContent {
     background-color: var(--lightblack);
     border-color: var(--red);
@@ -77,6 +79,7 @@ body.dark-mode .post .author {
     text-shadow: 1px 1px var(--lightgray);
 }
 
+/* Styles for footer */
 footer {
     text-align: center;
     margin-top: 20px;
@@ -94,6 +97,7 @@ footer a:hover {
     color: var(--orange);
 }
 
+/* Dark mode styles for footer */
 body.dark-mode footer {
     background-color: var(--lightblack);
     border-top-color: var(--red);
@@ -109,6 +113,7 @@ body.dark-mode footer a:hover {
     text-shadow: 1px 1px var(--red);
 }
 
+/* STyles for back button */
 button#backButton {
     background-color: var(--gray);
     color: var(--offwhite);
@@ -124,6 +129,7 @@ button#backButton:hover {
     background-color: var(--orange);
 }
 
+/* Dark mode styles for back button */
 body.dark-mode button#backButton {
     background-color: var(--sunset);
     box-shadow: 0 0 5px var(--orange);

@@ -1,4 +1,4 @@
-// Handles theme toggling between light and dark modes and saves preference on which
+// Handles theme toggling between light and dark modes and saves preference
 
 
 // Function to toggle theme between light and dark modes

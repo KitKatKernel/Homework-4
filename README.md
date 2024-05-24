@@ -4,7 +4,7 @@
 
 This week's project is a Blog website designed to display and interact with blog posts.
 
-- **Why Did I Make This?**: o practice and enhance my skills in HTML, CSS, and JavaScript by creating a dynamic and responsive blog application. This project was inspired by the "Revelations" blogs from the SEGA franchise "Like a Dragon," with the dark mode palette drawing inspiration from the signature colors of the series' main character, Kazuma Kiryu.
+- **Why Did I Make This?**: To practice and enhance my skills in HTML, CSS, and JavaScript by creating a dynamic and responsive blog application. This project was inspired by the "Revelations" blogs from the SEGA franchise "Like a Dragon," with the dark mode palette drawing inspiration from the signature colors of the series' main character, Kazuma Kiryu.
 - **What's in It?**: The application includes a main page and a blog page. Users can navigate between these pages, toggle between light and dark modes, and interact by submitting blog posts. The footer links to my portfolio page from Homework-2, and the back button takes you back to the main page to submit another blog entry.
 - **What Did I Learn?**: This project helped me understand the integration of HTML and JavaScript to create a cohesive user experience. I learned about DOM manipulation and the importance of maintaining consistent styling across different pages (Although I feel like I could've improved the stylizing on the blog page to better match the index page). I also gained more experience in organizing styles and scripts efficiently.  
 

@@ -8,8 +8,9 @@
     --lightgray: #dedede;
 }
 
+/* Center form horizontally with a max width */
 form {
-    max-width: 600px;
+    max-width: 600px; 
     margin: 0 auto;
     padding: 20px;
     background-color: var(--offwhite);
@@ -25,7 +26,7 @@ form label {
 
 form input[type="text"],
 form textarea {
-    width: 100%;
+    width: 100%; /* Full width for input and textarea */
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid var(--lightgray);
@@ -35,7 +36,7 @@ form textarea {
 
 form textarea {
     height: 150px;
-    resize: none; 
+    resize: none; /* Prevents text area resizing.. for no reason what-so-ever it could suddenly be resized, and this line fixed it */
 }
 
 form button {
@@ -47,6 +48,7 @@ form button:hover {
     background-color: var(--orange);
 }
 
+/* Dark mode styles for form */
 body.dark-mode form {
     background-color: var(--lightblack);
     border-color: var(--red);

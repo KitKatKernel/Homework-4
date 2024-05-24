@@ -8,6 +8,7 @@
     --lightgray: #dedede;
 }
 
+/* Basic body styling for light and dark modes */
 body {
     background-color: var(--offwhite);
     color: var(--lightblack);
@@ -18,11 +19,13 @@ body.dark-mode {
     color: var(--offwhite);
 }
 
+/* Center header content */
 header {
     text-align: center;
     margin: 20px 0;
 }
 
+/* General button styling */
 button {
     padding: 10px 20px;
     border: none;
@@ -31,21 +34,25 @@ button {
     font-size: 16px;
 }
 
+/* Theme toggle button styling */
 button#themeToggle {
     background-color: var(--gray);
     color: var(--offwhite);
 }
 
+/* Change background color on hover for button */
 button#themeToggle:hover {
     background-color: var(--orange);
 }
 
+/* Dark mode styling for theme toggle button */
 body.dark-mode button#themeToggle {
     background-color: var(--sunset);
     text-shadow: 0 0 5px var(--orange);
     box-shadow: 0 0 5px var(--orange);
 }
 
+/* Change background color on hover for button in dark mode */
 body.dark-mode button#themeToggle:hover {
     background-color: var(--orange);
 }
