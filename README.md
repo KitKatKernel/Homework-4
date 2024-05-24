@@ -1,127 +1,45 @@
-# 04 Web APIs: Personal Blog
+# Blog Project (Week 4)
 
-## Your Task
+## What is This Project?
 
-In this challenge, you'll create a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. As you code, you'll gain practical JavaScript experience, explore the Document Object Model's power, and set the stage for more advanced tasks.
+This week's project is a Blog website designed to display and interact with blog posts.
 
-## User Story
+- **Why Did I Make This?**: o practice and enhance my skills in HTML, CSS, and JavaScript by creating a dynamic and responsive blog application. This project was inspired by the "Revelations" blogs from the SEGA franchise "Like a Dragon," with the dark mode palette drawing inspiration from the signature colors of the series' main character, Kazuma Kiryu.
+- **What's in It?**: The application includes a main page and a blog page. Users can navigate between these pages, toggle between light and dark modes, and interact by submitting blog posts. The footer links to my portfolio page from Homework-2, and the back button takes you back to the main page to submit another blog entry.
+- **What Did I Learn?**: This project helped me understand the integration of HTML and JavaScript to create a cohesive user experience. I learned about DOM manipulation and the importance of maintaining consistent styling across different pages (Although I feel like I could've improved the stylizing on the blog page to better match the index page). I also gained more experience in organizing styles and scripts efficiently.  
 
-```md
-AS A marketing student,
-I WANT a personal blog
-SO THAT I can showcase my thoughts and experiences.
-```
+## Table of Contents
 
-## Acceptance Criteria
+Explore the contents of this guide:
 
-```md
-GIVEN a personal blog
-WHEN I load the app,
-THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I enter try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
-```
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Getting Started
+## Installation
 
-Your file structure should look like the following:
+No installation is required:
+1. Open up the page on your favorite browser: (https://kitkatkernel.github.io/Homework-4/)
 
-```md
-my-blog
-├── assets
-│   ├── css
-│   │   ├── blog.css
-│   │   ├── form.css
-│   │   └── styles.css
-│   └── js
-│       ├── blog.js
-│       ├── form.js
-│       └── logic.js
-├── index.html
-├── blog.html
-└── README.md
-```
+## Usage
 
-## Mock-Up
+1. Navigate through the pages (index.html and blog.html) to explore the blog functionality.
+2. Use the toggle switch at the top of the page to switch between light and dark modes.
+3. Interact with the blog posts on the blog.html page.
+4. Use the footer link to visit [Homework-2](https://kitkatkernel.github.io/Homework-2/).
+5. Use the back button on the blog.html page to return to the main page.
 
-The following animation demonstrates the application functionality:
+## Credits
 
-![A user adds a blog through a form, then the post appears on the following page.](./Assets/100-web-apis-challenge-demo.gif)
+A heartfelt thank you to my bootcamp instructors and peers for their continuous guidance and support. Special thanks to W3schools and MDN for their comprehensive resources on JavaScript and HTML, and to Web.dev for their insightful tutorials and podcast on CSS, which made learning enjoyable even during work. The tutorials and documentation from these sites were invaluable in helping me understand various concepts like local storage keys, using JSON.stringify, and implementing the functionality for this project.
 
-## Grading Requirements
+## License
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+MIT License 
 
-This Challenge is graded based on the following criteria:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Technical Acceptance Criteria: 40%
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
