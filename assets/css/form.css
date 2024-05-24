@@ -1,3 +1,13 @@
+:root {
+    --lightblack: #323232;
+    --red: #a73434;
+    --gray: #c8c8c8;
+    --orange: #dc9d62;
+    --sunset: #f3d27b;  
+    --offwhite: #f8f8f8;
+    --lightgray: #dedede;
+}
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -20,6 +30,12 @@ form textarea {
     margin-bottom: 15px;
     border: 1px solid var(--lightgray);
     border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+    resize: none; 
 }
 
 form button {
@@ -27,19 +43,30 @@ form button {
     background-color: var(--gray);
 }
 
+form button:hover {
+    background-color: var(--orange);
+}
+
 body.dark-mode form {
     background-color: var(--lightblack);
     border-color: var(--red);
     color: var(--offwhite);
+    box-shadow: 0 0 5px var(--red);
 }
 
 body.dark-mode form input[type="text"],
 body.dark-mode form textarea {
     background-color: var(--gray);
     border-color: var(--red);
-    color: var(--offwhite);
+    color: var(--red);
+    box-shadow: 0 0 15px var(--red);
 }
 
 body.dark-mode form button {
     background-color: var(--sunset);
+    box-shadow: 0 0 5px var(--orange);
+}
+
+body.dark-mode form button:hover {
+    background-color: var(--orange);
 }
