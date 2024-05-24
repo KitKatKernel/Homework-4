@@ -30,22 +30,22 @@
     margin-top: 0;
     margin-bottom: 8px;
     font-weight: bold;
-    color: var(--red);
-    text-shadow: 1px 1px var(--lightblack);
+    color: var(--lightblack);
+    text-shadow: 1px 1px var(--offwhite);
 }
 
 .post p {
     margin-bottom: 15px;
-    color: var(--red);
-    text-shadow: 1px 1px var(--lightblack);
+    color: var(--lightblack);
+    text-shadow: 1px 1px var(--offwhite);
 }
 
 .post .author {
     margin-top: 15px;
     font-style: italic;
     text-align: right;
-    color: var(--red);
-    text-shadow: 1px 1px var(--lightblack);
+    color: var(--lightblack);
+    text-shadow: 1px 1px var(--offwhite);
 }
 
 body.dark-mode #blogContent {
